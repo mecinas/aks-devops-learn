@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: learnmyaks.azurecr.io/mecinasaksdevopslearn
+        image: learnmyaks.azurecr.io/mecinasaksdevopslearn:latest
         ports:
         - containerPort: 80
 ---

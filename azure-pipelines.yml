@@ -14,7 +14,7 @@ variables:
   imageRepository: 'mecinasaksdevopslearn'
   containerRegistry: 'learnmyaks.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Docker/Dockerfile'
-  tag: '$(Build.BuildId)'
+  tag: 'latest'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
